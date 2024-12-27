@@ -1,92 +1,103 @@
-body{
-  margin:0;
-}
-header{
-  background-color:#e0e2e2;
-}
-header::after{
-  content:"";
-  display:table;
-  clear:both;
-}
-.container{
-  width:80%;
-  margin:0 auto;
-}
-nav{
-  float:right;
-}
-nav ul{
-  margin: 0;
-  padding:none;
-  list-style: none;
-}
-nav li{
-  display:inline-block;
-  margin-left :40px;
-  padding-top: 10px;
-  padding-bottom:10px;
-  position: relative;
-}
-nav a{
-  font-family: 'Lucida Sans';
-  color:black;
-  text-transform: uppercase;
-  font-style:italic;    
-  font-size: 25x;
-}
-nav a::before{
-  content:"";
-  display:block;
-  height:5px;
-  width:100%;
-  background-color: blue;
-  position:absolute;
-  top:0;
-  width:0%;
-  transition: ease-in-out 500ms;
-}
-nav a:hover::before{
-  width:100%
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Float two columns side by side */
-.column {
-  float: left;
-  width: 40%;
-  padding: 0 10px;
-}
-
-/* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0px -5px;}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }}
+#last{ 
+    width: 100%; 
+    height: auto; 
+    justify-content: center; 
+    background-color: #ffb3b3; 
+    } 
+    .full{ 
+    width: 80%; 
+    display: inline-block; 
+    margin:2%; 
+    margin-left: 10%; 
+    text-align: center; 
+    background-color: black; 
+    color: white; 
+    border:15px solid orange; 
+    border-radius: 5px; 
+    margin-bottom: 8%; 
+    margin-top: 8%; 
+    } 
+    .full h3{ 
+    font-size: 2rem; 
+    display:block; 
+    margin: 2%; 
+    margin-bottom: 0; 
+    } 
+    .lt{ 
+    padding: 2%; 
+    margin: 2%; 
+    } 
+    .rt{ 
+    padding: 2%; 
+    margin: 2%; 
+    } 
+    .lt textarea{ 
+    width: 94%; 
+    margin-left: 2.8%; 
+    } 
+    button{ 
+    margin: 2%; 
+    } 
+    .btn-primary{ 
+    background-color: black; 
+    border: 2px solid white; 
+    border-radius: 5%; 
+    } 
+    .list-item{ 
+    margin-bottom: 2%; 
+    list-style-type: none; 
+    } 
+    .list-item span{ 
+    margin-left: 10px; 
+    font-size: 1.4rem; 
+    } 
+    .list-item a{ 
+    color: white; 
+    display: inline-block; 
+    } 
+    .list-item a:hover{ 
+    text-decoration: underline; 
+    } 
+    .form-control{ 
+    background-color: black; 
+    } 
+        
+    @media screen and (min-width: 770px){ 
+    .full{ 
+        width: 70%; 
+        margin-left: 15%; 
+    } 
+    .lt textarea{ 
+    width: 95%; 
+    margin-left: 2.4%; 
+    } 
+    } 
+        
+    @media screen and (min-width: 1100px){ 
+    .full{ 
+        width: 65%; 
+        margin-left: 17%; 
+        margin-top: 5%; 
+    } 
+    .lt{ 
+        width: 55%; 
+        display: inline-block; 
+        float: left; 
+        margin-right: 0; 
+    } 
+    .rt{ 
+        width: 35%; 
+        display: inline-block; 
+        margin-left: 0; 
+    } 
+    .list-item{ 
+    margin-bottom: 10%; 
+    } 
+    .contact-list{ 
+        margin-top: 22%; 
+        padding-right: 8%; 
+    } 
+    .fa-envelope, .gmail{ 
+        display: inline-block; 
+        width: auto; 
+    } 
