@@ -1,99 +1,54 @@
 <!DOCTYPE html>
-<html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>
-        Saptashwa
-    </title>  
-    <link rel="icon" type="image/x-icon" href="favicon.jpg">
-    <link rel="stylesheet" 
-          href=
-"https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" 
-          href=
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="index.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>contact form</title>
 </head>
 
 <body>
-    <section id="last">
-        <!-- heading -->
-        <div class="full">
-            <h3>Drop a Message</h3>
 
-            <div class="lt">
+<link href="contact-form.css" rel="stylesheet">
 
-                <!-- form starting  -->
-                <form class="form-horizontal" method="post" 
-                      action="contact.php">
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <!-- name  -->
-                            <input type="text" class="form-control" 
-                                   id="name" placeholder="NAME" 
-                                   name="name" value="" />
-                        </div>
-                    </div>
+<div class="fcf-body">
 
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <!-- email  -->
-                            <input type="email" class="form-control" 
-                                   id="email" placeholder="EMAIL" 
-                                   name="email"
-                                value="" />
-                        </div>
-                    </div>
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
 
-                    <!-- message  -->
-                    <textarea class="form-control" rows="10" 
-                              placeholder="MESSAGE" name="message">
-            </textarea>
-
-                    <button class="btn btn-primary send-button" 
-                            id="submit" type="submit" value="SEND">
-                        <i class="fa fa-paper-plane"></i>
-                        <span class="send-text">SEND</span>
-                    </button>
-                </form>
-                <!-- end of form -->
-            </div>
-
-            <!-- Contact information -->
-            <div class="rt">
-                <ul class="contact-list">
-                    <li class="list-item">
-                        <i class="fa fa-map-marker fa-1x">
-                            <span class="contact-text place">
-                                C-122 Radhakrishnan Hall of Residence
-                                Indian Institute of Technology Kharagpur
-                                Kharagpur, West Bengal 721302, IN
-                            </span>
-                        </i>
-                    </li>
-
-                    <li class="list-item">
-                        <i class="fa fa-envelope fa-1x">
-                            <span class="contact-text gmail">
-                                <a href="mailto:guddugaria2002@gmail.com" 
-                                   title="Send me an email">
-                                    guddugaria2002@gmail.com</a>
-                            </span>
-                        </i>
-                    </li>
-
-                    <li class="list-item">
-                        <i class="fa fa-phone fa-1x">
-                            <span class="contact-text phone">
-                                +91 9330087770
-                            </span>
-                        </i>
-                    </li>
-                </ul>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
             </div>
         </div>
-    </section>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+        Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
+        </div>
+
+    </form>
+    </div>
+
+</div>
+
 </body>
 </html>
