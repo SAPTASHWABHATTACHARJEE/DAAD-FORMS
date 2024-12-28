@@ -8,14 +8,6 @@ html {
     overflow-x: hidden;
 }
 
-body {
-    font-face: Montserrat;
-    background-color: #d8d2d2;
-    color: #8490ff;
-    line-height: 1.6;
-    overflow-x: hidden;
-}
-
 .logo {
     text-decoration: none;
     color: #fff;
