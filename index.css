@@ -141,18 +141,3 @@ a:hover {
         display: none;
     }
 }
-
-.new-text {
-    color: red;
-    animation: blink 1s infinite alternate;
-}
-
-@keyframes blink {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 0.5;
-    }
-}
