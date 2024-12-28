@@ -207,13 +207,9 @@ a:hover {
     justify-content: space-between;
 }
 
-.notice-bord,
-.event-card {
+.notice-bord {
     width: 50%;
     margin-bottom: 2rem;
-}
-
-.notice-bord {
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
@@ -248,55 +244,7 @@ a:hover {
     color: var(--text-color);
 }
 
-.event-card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
-.event-card .event-heading {
-    color: var(--header-green-color);
-    margin-bottom: 1.5rem;
-    font-size: 1.75rem;
-    text-align: center;
-}
-
-.event-details {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.event {
-    width: 50%;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1rem;
-    animation: fadeInUp 1s ease forwards;
-    transition: transform 0.3s ease, 
-                  box-shadow 0.3s ease, 
-                  background-color 0.3s ease;
-    cursor: pointer;
-}
-
-.event:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    background-color: #1bf346;
-    color: #fff;
-}
-
-.event h3 {
-    color: var(--secondary-color);
-    margin-bottom: 0.5rem;
-}
-
-.event p {
-    margin-bottom: 0.5rem;
-}
 
 @keyframes fadeInUp {
     0% {
