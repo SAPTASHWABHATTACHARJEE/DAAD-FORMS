@@ -177,15 +177,17 @@ a:hover {
 
 #vision h2 {
     text-align: center;
-    color: var(--bg);
+    color: #fff;
     font-size: 2.5rem;
+    font-face: Montserrat;
     margin-bottom: 2rem;
 }
 
 #vision p {
-    text-align: center;
-    color: var(--secondary-color);
+    text-align: justify;
+    color: #fff;
     font-size: 1.125rem;
+    margin: 0.5in;
 }
 
 .main-notice-section {
