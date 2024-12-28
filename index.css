@@ -84,15 +84,15 @@ a:hover {
 }
 
 .navbar-lists li:nth-child(1) i {
-    color: rgb(221, 228, 215);
+    color: orange;
 }
 
 .navbar-lists li:nth-child(2) i {
-    color: rgb(240, 237, 64);
+    color: orange;
 }
 
 .navbar-lists li:nth-child(3) i {
-    color: rgb(11, 12, 11);
+    color: orange;
 }
 
 .navbar-lists li:nth-child(4) i {
@@ -100,7 +100,11 @@ a:hover {
 }
 
 .navbar-lists li:nth-child(5) i {
-    color: rgb(33, 105, 239);
+    color: orange;
+}
+
+.navbar-lists li:nth-child(6) i {
+    color: orange;
 }
 
 @media screen and (max-width: 768px) {
