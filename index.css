@@ -158,7 +158,7 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     background: #d8d2d2;
-    color: #33a3ee;
+    color: #8490ff;
     padding: 1rem 2rem;
     text-align: center;
     border-radius: 0.5rem;
@@ -397,11 +397,6 @@ button[type="submit"]:hover {
         font-size: 1rem;
     }
 }
-
-.our-school-map {
-    text-align: center;
-}
-
 
 .location-heading {
     font-size: 2.5rem;
