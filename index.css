@@ -18,7 +18,7 @@ body {
 
 .Saptashwa {
     text-decoration: none;
-    color: #fff;
+    color: #8490ff;
     font-size: 1.75rem;
     padding: 5px;
 }
@@ -34,6 +34,7 @@ a:hover {
 }
 
 .header {
+    font-face: Montserrat;
     padding: 1.6rem 4.8rem;
     display: flex;
     justify-content: space-between;
