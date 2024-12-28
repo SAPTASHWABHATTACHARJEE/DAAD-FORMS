@@ -293,6 +293,7 @@ footer {
     margin: 0 auto;
     padding: 30px;
     background-color: #f9f9f9;
+    color: #007bff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -395,25 +396,6 @@ button[type="submit"]:hover {
 
     .about-us-container p {
         font-size: 1rem;
-    }
-}
-
-.location-heading {
-    font-size: 2.5rem;
-    color: var(--primary-color);
-    margin-bottom: 2rem;
-}
-
-@media screen and (max-width: 768px) {
-    .location-heading {
-        font-size: 2rem;
-    }
-
-    .our-school-map iframe {
-        width: 90%;
-        max-width: 100%;
-        height: 300px;
-        margin: 0 auto;
     }
 }
 
